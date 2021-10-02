@@ -1,0 +1,172 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.3;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    margin-bottom: 100px;
+  }
+}
+
+header img {
+  width: 120px;
+}
+
+@media screen and (min-width: 1024px) {
+  header img {
+    width: 200px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    justify-content: flex-end;
+  }
+}
+
+footer > a {
+  margin-right: 16px;
+}
+
+footer > a:last-child {
+  margin-right: 0px;
+}
+
+footer i.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: #ffffff;
+}
+
+footer i.fab:hover {
+  border: 1px solid #e37dec;
+  color: #e37dec;
+  transition-duration: 100ms;
+}
+
+body {
+  padding: 40px;
+  background-color: #674bb1;
+  background-image: url(/img/bg-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 60px 80px 40px 80px;
+    background-image: url(/img/bg-desktop.svg);
+    background-position: top center;
+  }
+}
+
+main {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin-bottom: 26px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+}
+
+.heroImage {
+  padding-bottom: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  .heroImage {
+    padding-bottom: 0px;
+  }
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.heroText {
+  line-height: 1.75;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .heroText {
+    padding-left: 60px;
+    text-align: left;
+  }
+}
+
+.heroText h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+  .heroText h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+}
+
+a.cta {
+  display: inline-block;
+  position: relative;
+  min-width: 240px;
+  margin-top: 26px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #674bb1;
+  line-height: 1;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px #3d2d69;
+}
+
+@media screen and (min-width: 1024px) {
+  a.cta {
+    min-width: 200px;
+    padding: 20px 66px;
+  }
+}
+
+a.cta:hover {
+  background-color: #e37dec;
+  color: #ffffff;
+  transition-duration: 100ms;
+}
+/*# sourceMappingURL=style.css.map */
