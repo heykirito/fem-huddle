@@ -5,7 +5,7 @@ This is a single page landing page from Frontend Mentor. This is very basic resp
 ## About Me
 
 I'm Laksh, a guy just trying to learn some web development.
-Talk to me here [Twitter](https://www.twitter.com/heyLaksh)
+Talk to me here [Twitter](https://twitter.com/laksh4uh)
 
 ## Source
 
