@@ -2,5 +2,5 @@
 node_modules/
 
 # package files
-./package-lock.json
-./package
+package-lock.json
+package
