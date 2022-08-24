@@ -1,8 +1,11 @@
-*, *:before , *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
 }
@@ -13,28 +16,27 @@ body {
     font-size: 16px;
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
 }
-header{
+header {
     margin-bottom: 50px;
 
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: 1024px) {
         margin-bottom: 100px;
-        
     }
 
     img {
         width: 120px;
 
-        @media screen and (min-width: 1024px){
+        @media screen and (min-width: 1024px) {
             width: 200px;
         }
     }
 }
 
-
-footer{
+footer {
     display: flex;
     justify-content: center;
 
@@ -42,15 +44,15 @@ footer{
         justify-content: flex-end;
     }
 
-    > a{
+    > a {
         margin-right: 16px;
 
         &:last-child {
             margin-right: 0px;
-        }   
+        }
     }
 
-    i.fab{
+    i.fab {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -60,11 +62,10 @@ footer{
         height: 48px;
         color: #ffffff;
 
-        &:hover{
-            border:1px solid $light-purple;
+        &:hover {
+            border: 1px solid $light-purple;
             color: $light-purple;
             transition-duration: 100ms;
-            }
-        
+        }
     }
 }
